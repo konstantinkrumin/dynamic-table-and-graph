@@ -1,0 +1,161 @@
+/* помещаем следующие контейнеры во flexbox для равномерного отображения элементов по центру */
+#table-container, #header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Задаем CSS для заголовка */
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  background-color: #ddd;
+  width: 100%
+}
+
+#header-text {
+  text-align: center;
+}
+
+/* Отображаем кнопку перезагрузки всегда с правого верхнего края приложения */
+#header-button {
+  position: absolute;
+  right: 1%;
+}
+
+#dropdown-selection {
+  min-width: 100px
+}
+
+/* Задаем CSS верстку текстового элемента фильтра */
+#input-field {
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+  max-width: 200px;
+}
+
+/* Задаем верстку для таблицы и ее элементов */
+#table {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 80%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+#table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+#graph-button {
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Задаем вестку графика для равномерного отображения с остальными элементами */
+#chartContainer {
+  width: 82%;
+  height: 450px;
+  margin: 0 8%;
+}
+
+/* Следующий параметр не растягивает таблицу на больших экранах */
+@media (min-width: 1024px) {
+  #table {
+    width: 60%;
+  }
+}/* помещаем следующие контейнеры во flexbox для равномерного отображения элементов по центру */
+#table-container, #header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Задаем CSS для заголовка */
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  background-color: #ddd;
+  width: 100%
+}
+
+#header-text {
+  text-align: center;
+}
+
+/* Отображаем кнопку перезагрузки всегда с правого верхнего края приложения */
+#header-button {
+  position: absolute;
+  right: 1%;
+}
+
+#dropdown-selection {
+  min-width: 100px
+}
+
+/* Задаем CSS верстку текстового элемента фильтра */
+#input-field {
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+  max-width: 200px;
+}
+
+/* Задаем верстку для таблицы и ее элементов */
+#table {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 80%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+#table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+#graph-button {
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Задаем вестку графика для равномерного отображения с остальными элементами */
+#chartContainer {
+  width: 82%;
+  height: 450px;
+  margin: 0 8%;
+}
+
+/* Следующий параметр не растягивает таблицу на больших экранах */
+@media (min-width: 1024px) {
+  #table {
+    width: 60%;
+  }
+}
