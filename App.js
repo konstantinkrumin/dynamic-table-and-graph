@@ -4,6 +4,8 @@ import ReactDOM from "react-dom"
 import { Interface } from './components/Interface'
 import { requestData, createGraph } from './helper_functions/index'
 
+const Context = React.createContext()
+
 function App() {
   // Зададим default значения для хуков
   const DEFAULT_ERROR = null
