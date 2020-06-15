@@ -3,6 +3,8 @@ import ReactDOM from "react-dom"
 
 import Filter from './Filter'
 
+import { Context } from "../App"
+
 // Данный компонент определяет интерфейс заголовка
 function Header() {
   // При нажатии onClick в данном компоненте следующая функция в основном компоненте будет вызвана

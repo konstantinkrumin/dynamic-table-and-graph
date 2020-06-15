@@ -1,6 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+import { Context } from "../App"
+
 // Данный комонент определяет JSX фильтрации и передает необходимые параметры для соответствующих
 // функций в головном компоненте через useContext hook
 function Filter() {

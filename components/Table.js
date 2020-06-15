@@ -4,6 +4,8 @@ import ReactDOM from "react-dom"
 import TableHeader from './TableHeader'
 import TableData from './TableData'
 
+import { Context } from "../App"
+
 // Данный компонент определяет JSX таблицы и ее заголовка
 function Table() {
   const { handleGraphCreation } = React.useContext(Context)

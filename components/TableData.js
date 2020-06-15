@@ -1,6 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+import { Context } from "../App"
+
 /* В данном компоненте таблица динамически отображает элементы переданные из головного компонента
 и при нажатии кнопки 'Delete' удаляет соответствующую строку */
 function TableData() {
@@ -17,7 +19,7 @@ function TableData() {
           <button
             value={id}
             type="button"
-            class="btn btn-outline-danger" 
+            class="btn btn-outline-danger"
             onClick={handleDeletion}>
             <i class="far fa-trash-alt"></i>
           </button>
